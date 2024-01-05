@@ -73,7 +73,34 @@ To create a basic user pool:
 ![Create-user-pool-User-pools-Amazon-Cognito-us-east-1 (3)-2](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/e0754971-bef6-4d7b-8b15-97eee694acd8)
 
 
-12. 
+12. Select `Public client`
+13. Add client name, mine is going to be `googleClient`
+14. Select `Generate a client secret`
+15. For the callback URLs, which is the URL for the app receiving the authorization code issued by Cognito, we will use `https://jwt.io`
+
+
+
+![Create-user-pool-User-pools-Amazon-Cognito-us-east-1 (3)-3](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/8dc8d9f7-5724-40ba-af19-936bf8964c53)
+
+
+
+16. For the OAuth 2.0 grant types, let's remove "Authorization code grant" and add `Implicit grant` that specifies that the client should get the access token.
+17. For the OpenID Connect scopes, select `OpenID`, `Email`, `Profile` (remove "Phone" that was selected by default)
+
+
+![Create-user-pool-User-pools-Amazon-Cognito-us-east-1 (3)-4-2](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/8fa0e85f-5718-4b27-bacd-7b3d82fa8440)
+
+
+
+18. Review your selections, and click "Create user pool"
+
+
+The user pool is successfully created
+
+
+![Screenshot 2024-01-04 at 14 49 07](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/f063e12e-ef04-4069-888f-1adfa6381757)
+
+
 
 
 ## 💰 Cost
