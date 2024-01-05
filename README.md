@@ -178,10 +178,7 @@ We need to add the redirect URIs let's get back to that later as of now let crea
 
 
 
-
-
-
-and select `Google`
+11. select `Google`
 
 
 
