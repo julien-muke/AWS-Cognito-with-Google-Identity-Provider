@@ -137,12 +137,12 @@ Navigate to the Google Developer Console:
 
 5. Enter the App name `CognitoApp`, and then Add the support and developer email, you can put your email `YOUREMAIL@gmail.com`, then Save changes.
 
-![Edit-app-registration-–-APIs-Services-–-CognitoGoogleIntegr…-–-Google-Cloud-console-3](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/3bb059ca-a4a9-4b04-8fbf-1b9967598c86)
-
-
-
 
 ![Edit-app-registration-–-APIs-Services-–-CognitoGoogleIntegr…-–-Google-Cloud-console-2](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/c267d430-d9fa-4fd7-866d-372c824f13d8)
+
+
+
+![Edit-app-registration-–-APIs-Services-–-CognitoGoogleIntegr…-–-Google-Cloud-console-3](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/3bb059ca-a4a9-4b04-8fbf-1b9967598c86)
 
 
 
