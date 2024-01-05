@@ -102,6 +102,26 @@ The user pool is successfully created
 
 
 
+## ➡️ Step 2 - Configure Google Developer Console
+
+
+Navigate to the Google Developer Console:
+
+1. Create a new project, i will name it `CognitoGoogleIntegration` and then click "Create"
+
+
+![Screenshot 2024-01-04 at 14 36 39](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/a44d9673-c676-4c08-b896-bd54ce23abc8)
+
+
+
+
+
+
+
+
+
+
+
 
 ## 💰 Cost
 
