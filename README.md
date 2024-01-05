@@ -102,7 +102,7 @@ The user pool is successfully created
 
 
 
-## ➡️ Step 2 - Configure Google Developer Console
+## ➡️ Step 2 - Configure a client using Google Developer Console
 
 
 Navigate to the Google Developer Console:
@@ -111,6 +111,36 @@ Navigate to the Google Developer Console:
 
 
 ![Screenshot 2024-01-04 at 14 36 39](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/a44d9673-c676-4c08-b896-bd54ce23abc8)
+
+
+
+2. Configure the OAuth consent screen with information about your application, to do that, navigate to the google console, select "APIs & Services" then "Credentials"
+
+
+![Screenshot 2024-01-04 at 14 39 41](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/01ea692c-a4b4-4e01-865c-3f33418cce80)
+
+
+
+3. Click "Configure Content Screen" 
+
+
+![Screenshot 2024-01-04 at 14 40 30](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/2c9d5834-c0db-41a8-bf98-f671ed9d7028)
+
+
+
+4. Select `External` as a User Type, this will be available to any test user with a Google Account
+
+
+![Screenshot 2024-01-04 at 14 41 37](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/6870e3c1-5a0c-4e30-8e1d-b7156ac72e8e)
+
+
+
+5. 
+
+
+
+
+
 
 
 
