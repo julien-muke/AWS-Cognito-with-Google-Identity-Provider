@@ -145,6 +145,50 @@ Navigate to the Google Developer Console:
 ![Edit-app-registration-–-APIs-Services-–-CognitoGoogleIntegr…-–-Google-Cloud-console-3](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/3bb059ca-a4a9-4b04-8fbf-1b9967598c86)
 
 
+6. For "Scopes" and "Test users" leave it as default, then click "Save and Continue"
+7. Go back to the Dashboard, Select "Credentials" then click "Create Credentials" then click `OAuth client ID`
+
+
+![Screenshot 2024-01-04 at 14 46 04](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/23a5f7aa-d3eb-4540-87cc-b48c1c1418a1)
+
+
+
+8. Select Application type `Web application` and Enter App name `CognitoWebApp`
+
+We need to add the redirect URIs let's get back to that later as of now let create the application.
+
+
+![Screenshot 2024-01-04 at 14 47 40](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/c97cd9ca-18db-4179-80d3-6106fb0bbf95)
+
+
+
+9. the application client app is created successfully, now have a `Client ID` and `Client Secret`, copy and save it we will use it in Cognito
+
+
+
+![Screenshot 2024-01-04 at 14 48 32](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/4c374888-25ed-454c-8e35-ec8d40da3835)
+
+
+
+
+10. Now let's to back to Cognito and go to the "Sign-in Experience" and add "Identity Provider" 
+
+
+![Sign-in-experience-cognitoPool-User-pools-Amazon-Cognito-us-east-1](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/ecc3470d-3a80-4433-870b-fe528756987c)
+
+
+
+
+
+
+and select `Google`
+
+
+
+
+
+
+
 
 
 
