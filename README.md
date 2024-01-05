@@ -73,7 +73,7 @@ To create a basic user pool:
 ![Create-user-pool-User-pools-Amazon-Cognito-us-east-1 (3)-2](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/e0754971-bef6-4d7b-8b15-97eee694acd8)
 
 
-
+12. 
 
 
 ## 💰 Cost
