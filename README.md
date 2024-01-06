@@ -260,6 +260,11 @@ Now you can see I was able to successfully log in using Google and Cognito and i
 ![JSON-Web-Tokens-jwt-io (1)](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/92754126-8555-404f-b633-2a462dcd0db0)
 
 
+* If you go back to the Cognito console and select this users tab you will see that Google user created automatically `julien.muke@gmail.com` when I logged in for the very first time and it says external provider and if you look at the user ID it starts with Google  because the identity provider ID is Google.
+
+
+
+![Screenshot 2024-01-04 at 16 51 23](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/9507347d-6732-4e67-9e40-b4030001cc76)
 
 
 
