@@ -243,9 +243,22 @@ Now the Cognito client is configured in Google and the Google identity provider 
 
   ![Screenshot 2024-01-04 at 15 05 25](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/4a80779f-6aeb-4cbe-82b1-00398a602d2c)
 
-
+   * It will open up the login page on new tab:
 
 ![Screenshot 2024-01-04 at 15 09 30](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/ecd10be1-b20f-42f5-9ab3-a35070a207ba)
+
+
+    * Select your google account:
+
+
+![Screenshot 2024-01-04 at 16 43 40](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/d7019b9a-b4a8-40ae-a1a8-67f2b8f91e81)
+
+
+Now you can see I was able to successfully log in using Google and Cognito and it generated the ID tokens, it automatically mapped all those values like `given_name`, `family_name`, `email` all these values are mapped automatically to the Cognito user that was created after we've logged-in on Google.
+
+
+![JSON-Web-Tokens-jwt-io (1)](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/92754126-8555-404f-b633-2a462dcd0db0)
+
 
 
 
