@@ -301,12 +301,3 @@ Now you can see I was able to successfully log in using Google and Cognito and i
 
 All services used are eligible for the AWS Free Tier. However, charges will incur at some point so it's recommended that you shut down resources after completing this tutorial.
 
-## 🧹 Clean Up
-
-🗑️  Delete the Web Hosting App - Amplify Console
-
-🗑️  Delete the REST API - API Gateway Console
-
-🗑️  Delete the Lambda Function - Lambda Console
-
-🗑️  Delete the Database - DynamoDB Console
