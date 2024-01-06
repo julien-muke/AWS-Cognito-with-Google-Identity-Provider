@@ -209,6 +209,35 @@ Note: Replace `yourDomainPrefix` and `region` with the values for your user pool
 
 
 
+## ➡️ Step 2 - Test Integration
+
+
+Now the Cognito client is configured in Google and the Google identity provider is configured in cognito so basically what we have done now is establish the connectivity, also known as Federation configuration, it's established between Google and Cognito so now we need a client application in cognito to log-in using the Google credentials.
+
+
+1. Go back to the Test Client we've created, click `googleClient`
+
+
+![Screenshot 2024-01-04 at 15 03 03](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/ede73e2c-eccb-4842-a1f6-7d37aaf8d1b6)
+
+
+2. If you look at our client it currently supports Cognito user pool directory what I will do is I will keep that Cognito user pool access and I will add the Google identity provider and click "Save changes"
+
+   * Click on client `googleClient`
+   * Scroll down to "Hosted UI"
+   * Click "Edit"
+
+![Screenshot 2024-01-04 at 15 03 37](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/3f3ccb32-6214-4e23-9573-c284d89db1a8)
+
+
+   * Scroll down to the "Identity provider and Add `Google` click "Save changes"
+
+
+![Screenshot 2024-01-04 at 15 04 21](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/84895060-61da-471a-b132-8c3c1ee9279c)
+
+
+
+
 
 
 
