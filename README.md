@@ -193,7 +193,19 @@ We need to add the redirect URIs let's get back to that later as of now let crea
 
     * For Authorized redirect URIs, enter `https://yourDomainPrefix.auth.region.amazoncognito.com/oauth2/idpresponse`
 
+
+![Screenshot 2024-01-04 at 15 00 33](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/816a2c1e-6f89-44b9-b371-3ddfebec5ba9)
+
+
 Note: Replace `yourDomainPrefix` and `region` with the values for your user pool. Find these values in the Amazon Cognito console on the Domain name page for your user pool, under Add Integration.
+
+
+![Screenshot 2024-01-04 at 14 59 23](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/08b9fc23-6302-4808-b4f8-0d6b7229aecd)
+
+
+
+![Screenshot 2024-01-04 at 14 59 35](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/272b6b22-dda6-40d0-9e0f-f5832f67cae2)
+
 
 
 
