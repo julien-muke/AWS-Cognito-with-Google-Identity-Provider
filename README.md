@@ -230,11 +230,22 @@ Now the Cognito client is configured in Google and the Google identity provider 
 ![Screenshot 2024-01-04 at 15 03 37](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/3f3ccb32-6214-4e23-9573-c284d89db1a8)
 
 
-   * Scroll down to the "Identity provider and Add `Google` click "Save changes"
+   * Scroll down to the "Identity provider" and Add `Google` click "Save changes"
 
 
 ![Screenshot 2024-01-04 at 15 04 21](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/84895060-61da-471a-b132-8c3c1ee9279c)
 
+
+  * Now we've added the Google Identity provider, let's test it,
+  * Click on the "View Hosted UI"
+
+
+
+  ![Screenshot 2024-01-04 at 15 05 25](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/4a80779f-6aeb-4cbe-82b1-00398a602d2c)
+
+
+
+![Screenshot 2024-01-04 at 15 09 30](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/ecd10be1-b20f-42f5-9ab3-a35070a207ba)
 
 
 
