@@ -189,6 +189,16 @@ We need to add the redirect URIs let's get back to that later as of now let crea
 
 
 
+15. Let's add the Authorized redirect URIs:
+
+    * For Authorized redirect URIs, enter `https://yourDomainPrefix.auth.region.amazoncognito.com/oauth2/idpresponse`
+
+Note: Replace `yourDomainPrefix` and `region` with the values for your user pool. Find these values in the Amazon Cognito console on the Domain name page for your user pool, under Add Integration.
+
+
+
+
+
 
 
 
