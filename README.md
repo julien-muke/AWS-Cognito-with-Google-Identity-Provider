@@ -178,7 +178,21 @@ We need to add the redirect URIs let's get back to that later as of now let crea
 
 
 
-11. select `Google`
+11. select `Google` for the identity provider
+12. Copy and paste the `Client ID` and `Client secret` we created from Google
+13. Add the Authorized scopes `openid`, `provile`, `email`
+14. Map attributes between Google and your Cognito user pool, add Google attributes `name`, `given_name`, `family_name`, `email` then click "Add Identity Provider"
+
+
+
+![Add-identity-provider-cognitoPool-User-pools-Amazon-Cognito-us-east-1](https://github.com/julien-muke/AWS-Cognito-with-Google-Identity-Provider/assets/110755734/cd55a09a-46e4-4209-9419-fc3840822f6a)
+
+
+
+
+
+
+
 
 
 
